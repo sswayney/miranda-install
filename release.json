@@ -1,0 +1,7 @@
+{
+  "installPageUrl": "https://sswayney.github.io/miranda-install/",
+  "publicPagesUrl": "https://sswayney.github.io/miranda-install",
+  "publicReleaseRepo": "sswayney/miranda-install",
+  "publicScriptUrl": "https://sswayney.github.io/miranda-install/miranda.js",
+  "version": "1.0.1"
+}
