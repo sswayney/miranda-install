@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Install Miranda 1.0.1</title>
+    <title>Install Miranda 2.0.0</title>
     <style>
         :root {
             --bg: #eef3f8;
@@ -150,13 +150,13 @@
 <div class="page-shell">
     <section class="hero">
         <div class="eyebrow">Miranda Installer</div>
-        <h1>Install Miranda 1.0.1</h1>
+        <h1>Install Miranda 2.0.0</h1>
         <p>
             Miranda helps you bulk-download documents from Paycom's Document Management Dashboard and package them into ZIP files.
             Drag the bookmarklet below to your bookmarks bar, then run it from your dashboard.
         </p>
         <div class="meta">
-            <div class="pill">Version 1.0.1</div>
+            <div class="pill">Version 2.0.0</div>
             <div class="pill">sswayney/miranda-install</div>
             <div class="pill">https://sswayney.github.io/miranda-install/</div>
         </div>
@@ -166,11 +166,11 @@
         <h2>Quick Install</h2>
         <p>Drag this button to your bookmarks bar:</p>
         <div class="bookmarklet-row">
-            <a class="bookmarklet-link" href="javascript:(function(){window.bookmarkver='1.0.1';const siteName='paycomonline.net';const pageName='Dashboard';const pageNameDisplay='Document Management Dashboard';var isCorrectSite=document.location.hostname.split('.').slice(-2).join('.')===siteName;var isCorrectPage=document.location.href.includes(pageName);if(isCorrectSite&&isCorrectPage){console.log('Init Miranda Document Downloader...');var cacheBustUrl='https://sswayney.github.io/miranda-install/miranda.js?v=1.0.1&t='+(new Date().getTime());fetch(cacheBustUrl).then(function(response){return response.text()}).then(function(data){var script=document.createElement('script');script.id='mdd-script';script.innerHTML=data;document.getElementsByTagName('head')[0].appendChild(script)}).catch(function(){alert('Error retrieving miranda from github')})}else if(confirm(`This script can only be run from your own user ${pageNameDisplay} on ${siteName}. Would you like to go there now?`)){document.location='https://www.paycomonline.net/v4/cl/web.php/Doc/Dashboard'}else{alert(`Please go to your ${pageNameDisplay} before running this script`)}})();">Miranda 1.0.1</a>
+            <a class="bookmarklet-link" href="javascript:(function(){window.bookmarkver='2.0.0';const siteName='paycomonline.net';const pageName='Dashboard';const pageNameDisplay='Document Management Dashboard';var isCorrectSite=document.location.hostname.split('.').slice(-2).join('.')===siteName;var isCorrectPage=document.location.href.includes(pageName);if(isCorrectSite&&isCorrectPage){console.log('Init Miranda Document Downloader...');var cacheBustUrl='https://sswayney.github.io/miranda-install/miranda.js?v=2.0.0&t='+(new Date().getTime());fetch(cacheBustUrl).then(function(response){return response.text()}).then(function(data){var script=document.createElement('script');script.id='mdd-script';script.innerHTML=data;document.getElementsByTagName('head')[0].appendChild(script)}).catch(function(){alert('Error retrieving miranda from github')})}else if(confirm(`This script can only be run from your own user ${pageNameDisplay} on ${siteName}. Would you like to go there now?`)){document.location='https://www.paycomonline.net/v4/cl/web.php/Doc/Dashboard'}else{alert(`Please go to your ${pageNameDisplay} before running this script`)}})();">Miranda 2.0.0</a>
             <button type="button" id="copyBtn">Copy Bookmarklet</button>
         </div>
         <p class="muted">If drag-and-drop is blocked in your browser, use the full bookmarklet code below.</p>
-        <pre id="bookmarkletCode">javascript:(function(){window.bookmarkver='1.0.1';const siteName='paycomonline.net';const pageName='Dashboard';const pageNameDisplay='Document Management Dashboard';var isCorrectSite=document.location.hostname.split('.').slice(-2).join('.')===siteName;var isCorrectPage=document.location.href.includes(pageName);if(isCorrectSite&&isCorrectPage){console.log('Init Miranda Document Downloader...');var cacheBustUrl='https://sswayney.github.io/miranda-install/miranda.js?v=1.0.1&t='+(new Date().getTime());fetch(cacheBustUrl).then(function(response){return response.text()}).then(function(data){var script=document.createElement('script');script.id='mdd-script';script.innerHTML=data;document.getElementsByTagName('head')[0].appendChild(script)}).catch(function(){alert('Error retrieving miranda from github')})}else if(confirm(`This script can only be run from your own user ${pageNameDisplay} on ${siteName}. Would you like to go there now?`)){document.location='https://www.paycomonline.net/v4/cl/web.php/Doc/Dashboard'}else{alert(`Please go to your ${pageNameDisplay} before running this script`)}})();</pre>
+        <pre id="bookmarkletCode">javascript:(function(){window.bookmarkver='2.0.0';const siteName='paycomonline.net';const pageName='Dashboard';const pageNameDisplay='Document Management Dashboard';var isCorrectSite=document.location.hostname.split('.').slice(-2).join('.')===siteName;var isCorrectPage=document.location.href.includes(pageName);if(isCorrectSite&&isCorrectPage){console.log('Init Miranda Document Downloader...');var cacheBustUrl='https://sswayney.github.io/miranda-install/miranda.js?v=2.0.0&t='+(new Date().getTime());fetch(cacheBustUrl).then(function(response){return response.text()}).then(function(data){var script=document.createElement('script');script.id='mdd-script';script.innerHTML=data;document.getElementsByTagName('head')[0].appendChild(script)}).catch(function(){alert('Error retrieving miranda from github')})}else if(confirm(`This script can only be run from your own user ${pageNameDisplay} on ${siteName}. Would you like to go there now?`)){document.location='https://www.paycomonline.net/v4/cl/web.php/Doc/Dashboard'}else{alert(`Please go to your ${pageNameDisplay} before running this script`)}})();</pre>
     </section>
 
     <section class="panel">
@@ -188,7 +188,7 @@
         <ol>
             <li>Install page: <a href="https://sswayney.github.io/miranda-install/">https://sswayney.github.io/miranda-install/</a></li>
             <li>Hosted script: <a href="https://sswayney.github.io/miranda-install/miranda.js">https://sswayney.github.io/miranda-install/miranda.js</a></li>
-            <li>Bookmarklet version: 1.0.1</li>
+            <li>Bookmarklet version: 2.0.0</li>
         </ol>
     </section>
 </div>
